@@ -18,7 +18,7 @@ namespace _02
             set
             {
                 x1 = value.Item1;
-                y1 = value.Item1;
+                y1 = value.Item2;
                 OnSizeChanged?.Invoke(Size());
             }
         }
@@ -28,7 +28,7 @@ namespace _02
             set
             {
                 x2 = value.Item1;
-                y2 = value.Item1;
+                y2 = value.Item2;
                 OnSizeChanged?.Invoke(Size());
             }
         }
